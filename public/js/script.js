@@ -3,5 +3,9 @@ const destaque = document.getElementById("destaque")
 
 glass.addEventListener("mouseover", () => {
     destaque.style.backgroundSize = "95%"
-    console.log("Funcionou")
+    destaque.style.transition = "all .3s ease"
+})
+
+glass.addEventListener("mouseout", () => {
+    destaque.style.backgroundSize = "90%"
 })
