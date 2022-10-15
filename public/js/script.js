@@ -9,3 +9,15 @@ glass.addEventListener("mouseover", () => {
 glass.addEventListener("mouseout", () => {
     destaque.style.backgroundSize = "90%"
 })
+
+const candidato1Foto = document.getElementById("candidato1Foto")
+const candidato1Info = document.getElementById("candidato1Info")
+
+candidato1Foto.addEventListener("mouseover", () => {
+    candidato1Info.style.transition = ".4s ease all"
+    candidato1Info.style.transform = "translateY(-350px)"
+})
+
+candidato1Info.addEventListener("mouseleave", () => {
+    candidato1Info.style.transform = "translateY(0)"
+})
