@@ -21,3 +21,11 @@ candidato1Foto.addEventListener("mouseover", () => {
 candidato1Info.addEventListener("mouseleave", () => {
     candidato1Info.style.transform = "translateY(0)"
 })
+
+candidato2Foto.addEventListener("mouseover", () => {
+    candidato2Info.style.transition = ".4s ease all"
+    candidato2Info.style.transform = "translateY(-350px)"
+})
+candidato2Info.addEventListener("mouseleave", () => {
+    candidato2Info.style.transform = "translateY(0)"
+})
