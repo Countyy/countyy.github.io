@@ -168,3 +168,13 @@ header {
 #candidato2Foto {
     background-image: url(../img/fotocandidata2.jpg);
 }
+
+#candidato1Foto {
+    background-image: url(../img/fotocandidato1.jpeg);
+}
+
+#vice1Foto {
+    background-image: url(../img/fotovice1.jpeg);
+    background-size: cover;
+    background-position:center;
+}
